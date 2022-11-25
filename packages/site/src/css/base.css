@@ -88,13 +88,6 @@ h6 {
   --colorButtonBack: #333344;
   --colorButtonBackHover: #3d3d58;
   --colorButtonText: #ffffff;
-
-  --colorKeyBorder: rgb(14, 61, 61);
-  --colorKeyRoot: rgb(24 35 45);
-
-  --colorConsoleLog: rgb(109, 128, 146);
-  --colorConsoleWarn: rgb(255, 84, 30);
-  --colorConsoleError: rgb(192, 45, 1);
 }
 
 /*
@@ -103,9 +96,19 @@ h6 {
 
 html,
 body {
+  font-family: 'DM Mono', sans-serif;
+  line-height: 1.5em;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+
   background-color: var(--colorBack);
   color: var(--colorText);
-  font-family: "JetBrains Mono", monospace;
+}
+
+#root {
+  height: 100%;
 }
 
 ::selection {
