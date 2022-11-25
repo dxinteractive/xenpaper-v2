@@ -1,5 +1,7 @@
 # xenpaper-v2
 
+![Master build](https://github.com/dxinteractive/xenpaper-v2/workflows/CI/badge.svg?branch=main)
+
 The new xenpaper.
 
 ## Development
