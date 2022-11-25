@@ -80,6 +80,7 @@ h6 {
 :root {
   --colorText: #ffffff;
   --colorText2: rgb(34, 206, 206);
+  --colorTextLink: rgb(164, 144, 179);
   --colorBack: rgb(14, 21, 27);
   --colorBack2: rgb(24, 35, 45);
   --colorBack3: rgb(32, 48, 64);
@@ -96,7 +97,7 @@ h6 {
 
 html,
 body {
-  font-family: 'DM Mono', sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.5em;
   position: relative;
   -webkit-font-smoothing: antialiased;
@@ -114,4 +115,14 @@ body {
 ::selection {
   background: var(--colorText2);
   color: var(--colorBack);
+}
+
+a {
+  color: var(--colorTextLink);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--colorText);
+  text-decoration: underline;
 }

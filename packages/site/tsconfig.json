@@ -16,9 +16,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "mosfez-faust/*": ["../src/*"]
+      "xenpaper-synth/*": ["../synth/src/*"]
     }
   },
-  "include": ["src", "../src"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
