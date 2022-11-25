@@ -7,7 +7,4 @@ export default defineConfig({
     alias: {},
   },
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ["ws"],
-  },
 });
