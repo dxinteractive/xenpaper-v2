@@ -28,7 +28,7 @@ function Main() {
     <div className={classes.main}>
       xenpaper-v2 development site -{" "}
       <a href="#" onClick={playTestSound}>
-        click to play a test sound
+        click to play a test sound but not on firefox
       </a>
     </div>
   );
