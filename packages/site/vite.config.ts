@@ -15,7 +15,8 @@ export default defineConfig({
       manifest: {
         name: "Xenpaper",
         short_name: "Xenpaper",
-        description: "Text-based microtonal sequencer.",
+        description: "Text-based microtonal sequencer",
+        display: "fullscreen",
         theme_color: "#0e151b",
         icons: [
           {
